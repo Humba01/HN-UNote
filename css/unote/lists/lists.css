@@ -1,0 +1,46 @@
+.list_maker_conteiner {
+  display: inline-block;
+  font-family: "Ubuntu-Light";
+  color: #444444;
+  margin-top: 2vw;
+  text-align: center;
+  align-content: center;
+}
+
+.titulo_servicos {
+  font-family: "Baumans-Regular";
+  font-size: 50px;
+  border: #000000 2px solid;
+  background-color: #eeff00;
+  margin-left: 1.6vw;
+  border-radius: 8px;
+  padding: 0.6vw 0.4vw;
+}
+
+.creator {
+  font-family: "Ubuntu-Light";
+  display: inline-block;
+  border: #f0f0f0 4px solid;
+  border-radius: 8px;
+  padding: 0.6vw 0.4vw;
+  margin-top: 1vw;
+  margin-left: 4vw;
+  font-size: 30px;
+  width: 90vw;
+}
+
+.label_lista {
+  display: block;
+  text-align: center;
+  align-content: center;
+}
+
+.input_lista {
+  display: block;
+  text-align: left;
+  align-content: center;
+  margin-top: 0.6vw;
+  margin-left: 5%;
+  width: 90%;
+  font-size: 20px;
+}
