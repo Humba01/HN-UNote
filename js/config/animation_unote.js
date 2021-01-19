@@ -1,45 +1,90 @@
-let betaTexto = document.getElementById("beta_text");
+let slogan = document.getElementById("slogan");
 
-let quadroDaAnimacao = document.getElementById("canvas1");
+function animacaoSlogan() {
+  setTimeout(() => {
+    slogan.style.borderLeftWidth = "3px";
+    slogan.style.borderLeftStyle = "solid";
+    slogan.style.borderLeftColor = "#0000ff";
+    setTimeout(() => {    
+      slogan.style.borderLeftWidth = "0px";
+      slogan.style.borderLeftStyle = "solid";
+      slogan.style.borderLeftColor = "#0000ff";
+      setTimeout(() => {
+        slogan.style.borderRightWidth = "3px";
+        slogan.style.borderRightStyle = "solid";
+        slogan.style.borderRightColor = "#0000ff";
+        setTimeout(() => {
+          slogan.style.borderRightWidth = "0px";
+          slogan.style.borderRightStyle = "solid";
+          slogan.style.borderRightColor = "#0000ff";
+          setTimeout(() => {
+            slogan.style.borderLeftWidth = "3px";
+            slogan.style.borderLeftStyle = "solid";
+            slogan.style.borderLeftColor = "#00ff00";
+            setTimeout(() => {    
+              slogan.style.borderLeftWidth = "0px";
+              slogan.style.borderLeftStyle = "solid";
+              slogan.style.borderLeftColor = "#00ff00";
+              setTimeout(() => {
+                slogan.style.borderRightWidth = "3px";
+                slogan.style.borderRightStyle = "solid";
+                slogan.style.borderRightColor = "#00ff00";
+                setTimeout(() => {
+                  slogan.style.borderRightWidth = "0px";
+                  slogan.style.borderRightStyle = "solid";
+                  slogan.style.borderRightColor = "#00ff00";
+                  setTimeout(() => {
+                    slogan.style.borderLeftWidth = "3px";
+                    slogan.style.borderLeftStyle = "solid";
+                    slogan.style.borderLeftColor = "#ffcc00";
+                    setTimeout(() => {    
+                      slogan.style.borderLeftWidth = "0px";
+                      slogan.style.borderLeftStyle = "solid";
+                      slogan.style.borderLeftColor = "#ffcc00";
+                      setTimeout(() => {
+                        slogan.style.borderRightWidth = "3px";
+                        slogan.style.borderRightStyle = "solid";
+                        slogan.style.borderRightColor = "#ffcc00";
+                        setTimeout(() => {
+                          slogan.style.borderRightWidth = "0px";
+                          slogan.style.borderRightStyle = "solid";
+                          slogan.style.borderRightColor = "#ffcc00";
+                          setTimeout(() => {
+                            slogan.style.borderLeftWidth = "3px";
+                            slogan.style.borderLeftStyle = "solid";
+                            slogan.style.borderLeftColor = "#dddddd";
+                            setTimeout(() => {    
+                              slogan.style.borderLeftWidth = "0px";
+                              slogan.style.borderLeftStyle = "solid";
+                              slogan.style.borderLeftColor = "#dddddd";
+                              setTimeout(() => {
+                                slogan.style.borderRightWidth = "3px";
+                                slogan.style.borderRightStyle = "solid";
+                                slogan.style.borderRightColor = "#dddddd";
+                                setTimeout(() => {
+                                  slogan.style.borderRightWidth = "0px";
+                                  slogan.style.borderRightStyle = "solid";
+                                  slogan.style.borderRightColor = "#dddddd";
+                                }, 600);
+                              }, 600);
+                            }, 600);
+                          }, 600);
+                        }, 600);
+                      }, 600);
+                    }, 600);
+                  }, 600);
+                }, 600);
+              }, 600);
+            }, 600);
+          }, 600);
+        }, 600);
+      }, 600);
+    }, 600);
+  }, 600);
+}
 
-//let caneta = quadroDaAnimacao.getContext("2d");
-/*
-caneta.fillStyle = "#0000ffaa";
-caneta.fillRect(6, 18, 200, 200);
+animacaoSlogan();
 
-caneta.fillStyle = "#0000ffaa";
-caneta.fillRect(210, 18, 200, 200);
-
-caneta.fillStyle = "#0000ffaa";
-caneta.fillRect(414, 18, 200, 200);
-
-caneta.fillStyle = "#0000ffaa";
-caneta.fillRect(618, 18, 200, 200);
-
-caneta.fillStyle = "#0000ffaa";
-caneta.fillRect(822, 18, 200, 200);
-
-caneta.fillStyle = "#0000ffaa";
-caneta.fillRect(1026, 18, 200, 200);
-
-caneta.fillStyle = "#0000ffaa";
-caneta.fillRect(6, 222, 200, 200);
-
-caneta.fillStyle = "#0000ffaa";
-caneta.fillRect(210, 222, 200, 200);
-
-caneta.fillStyle = "#0000ffaa";
-caneta.fillRect(414, 222, 200, 200);
-
-caneta.fillStyle = "#0000ffaa";
-caneta.fillRect(618, 222, 200, 200);
-
-caneta.fillStyle = "#0000ffaa";
-caneta.fillRect(822, 222, 200, 200);
-
-caneta.fillStyle = "#0000ffaa";
-caneta.fillRect(1026, 222, 200, 200);
-
-caneta.fillStyle = "#006600aa";
-caneta.fillRect(6, 18, 200, 30);
-*/
+setInterval(() => {
+  animacaoSlogan();
+}, 9620);

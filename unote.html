@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/pag-inicial/cabecalho.css"/>
     <link rel="stylesheet" href="css/pag-inicial/rodape.css"/>
     <link rel="stylesheet" href="css/unote/lists/lists.css"/>
+    <link rel="stylesheet" href="css/unote/slogan/slogan.css"/>
 
   </head>
   <body>
@@ -25,20 +26,40 @@
       </div>
     </header>
 
+    <section class="unote_slogan">
+      <p class="unote_text_slogan" id="slogan">Um bloco de notas diferenciado.</p>
+    </section>
+
     <section class="list_maker_conteiner">
       <h2 class="titulo_servicos">List Maker</h2>
     </section>
     
     <section class="creator">
+      <label class="label_lista" for="lists">Insira abaixo um título para a lista.</label>
+      <input class="input_lista" type="text" id="lists">
       <label class="label_lista" for="lists">Insira abaixo um item para iniciar sua lista ou complementa-lá.</label>
       <input class="input_lista" type="text" id="lists">
+      <p class="lista_aviso">Pressione I para novo item e T para o título...</p>
+    </section>
+
+    <section class="list_conteiner">
+      <ol class="list" id="unote_notes">
+        <!-- Estrutura de Dados a ser criada -->
+        <h2 class="list_titulo">Título 2</h2>
+        <li class="list_item">
+          <p class="list_item__text">Teste da Lista</p>
+          <button class="list_item__btn">✖</button>
+        </li>
+      </ol>
     </section>
 
     <script src="js/config/animation_unote.js"></script>
-    <script src="lister.js"></script>
+    <script src="js/config/function/list_maker.js"></script>
 
   </body>
   <footer>
-
+    <section class="rodape">
+      <h1 class="rodape_titulo">Humbanew © 2015 - 2021</h1>
+    </section>
   </footer>
 </html>
