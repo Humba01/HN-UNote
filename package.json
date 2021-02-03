@@ -1,0 +1,22 @@
+{
+  "name": "humbanew-unote",
+  "version": "1.0.0",
+  "description": "_O Bloco de notas diferenciado._",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Humba01/Humbanew-UNote-Beta.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Humba01/Humbanew-UNote-Beta/issues"
+  },
+  "homepage": "https://github.com/Humba01/Humbanew-UNote-Beta#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
